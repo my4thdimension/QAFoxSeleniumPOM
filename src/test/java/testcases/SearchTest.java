@@ -21,7 +21,7 @@ public class SearchTest extends TestBase{
 	
 	@BeforeMethod
 	public void setup_browser() {
-		
+		System.out.println("<<<<<<<-----team member commentsssss-sssfffs33333333333--->");
 		driver =select_browser_launch_url(prop.getProperty("browser"));
 		 hp = new HomePage(driver);
 			
